@@ -56,6 +56,13 @@ nav {
   align-self: center;
 }
 
+/* MAIN ----------------------> */
+
 main {
   flex: 1 0 auto;
+}
+
+/* Footer ---------------------> */
+
+footer {
 }
