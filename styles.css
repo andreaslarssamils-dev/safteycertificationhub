@@ -86,6 +86,38 @@ nav a:focus-visible {
   color: var(--middle-green);
 }
 
+/* MAIN ----------------------> */
+
+main {
+  flex: 1 0 auto;
+}
+
+#hero {
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--dark-green);
+  text-shadow: 2px 2px 5px var(--seasalt), 2px 2px 5px var(--seasalt),
+    2px 4px 7px var(--seasalt), 0px 4px 10px var(--seasalt);
+}
+
+.hero-text h1 {
+  font-size: 200%;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-weight: 300;
+}
+
 .image-container {
   height: 70vh;
 }
@@ -95,10 +127,17 @@ nav a:focus-visible {
   height: 100%;
 }
 
-/* MAIN ----------------------> */
-
-main {
-  flex: 1 0 auto;
+.hero-text button {
+  background-color: var(--middle-green);
+  letter-spacing: 1.5px;
+  color: var(--seasalt);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px var(--seasalt), 1px 3px 8px var(--seasalt);
+  margin-top: 30px;
 }
 
 /* Footer ---------------------> */
