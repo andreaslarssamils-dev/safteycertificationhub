@@ -8,6 +8,16 @@
 
 html {
   scroll-behavior: smooth;
+  --dark-green: #293529;
+  --olive-green: #7e7a39;
+  --dark-taupe: #584c31;
+  --seasalt: #f8fafc;
+  --grey-green: #637062;
+  --warm-beige: #a6976c;
+  --salviagrey: #a6aea0;
+  --lavendel-blue: #babdae;
+  --grey: #96998f;
+  --middle-green: #437c59;
 }
 
 body {
@@ -32,7 +42,7 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  background-color: hsl(200, 33%, 98%);
+  background-color: hsl(210, 40%, 98%);
 }
 
 ul {
@@ -51,9 +61,23 @@ nav {
 #logo {
   display: flex;
   align-items: center;
-  gap: 5px;
-  color: hsl(20, 33%, 26%);
+  gap: 3px;
+  color: var(--dark-green);
   align-self: center;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark-green);
+  font-weight: 700;
+}
+nav a:hover {
+  color: var(--olive-green);
+}
+nav a:active {
+  color: var(--dark-taupe);
 }
 
 /* MAIN ----------------------> */
