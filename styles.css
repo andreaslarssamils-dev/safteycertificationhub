@@ -21,6 +21,11 @@ html {
   background-color: var(--lavendel-blue);
 }
 
+/* Utilities -----------------> */
+.mb-20px {
+  margin-bottom: 30px;
+}
+
 body {
   min-height: 100vh;
   font-family: 'Lato', sans-serif;
@@ -149,18 +154,43 @@ main {
 #about-us {
   text-align: center;
   padding: 80px 5%;
+  background-color: var(--seasalt);
 }
 #about-us h2 {
   margin-bottom: 20px;
   text-shadow: 1px 0px 1px black;
   border-bottom: 0.5px solid var(--dark-green);
+  letter-spacing: 1.5px;
 }
 
 #about-us p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
-  margin-bottom: 20px;
-  text-shadow: 1px 0px 1px black;
+}
+
+/* Services section --------------> */
+#services {
+  text-align: center;
+  padding: 80px 5%;
+  background-color: var(--dark-green);
+  color: var(--seasalt);
+}
+
+#services h2 {
+  margin-bottom: 30px;
+  border-bottom: var(--seasalt) 0.5px solid;
+  letter-spacing: 1.5px;
+}
+#services p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+#services h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 5px;
 }
 
 /* Footer ---------------------> */
