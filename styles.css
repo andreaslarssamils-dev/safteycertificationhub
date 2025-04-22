@@ -297,6 +297,20 @@ small {
   .image-container {
     height: 100%;
   }
+
+  #contact input,
+  #contact textarea {
+    max-width: 400px;
+  }
+
+  #contact label {
+    display: block;
+  }
+
+  #contact form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
 }
 
 /* Media Min width 992px */
