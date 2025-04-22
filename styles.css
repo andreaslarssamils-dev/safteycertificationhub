@@ -6,8 +6,7 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+:root {
   --dark-green: #293529;
   --olive-green: #7e7a39;
   --dark-taupe: #584c31;
@@ -18,7 +17,11 @@ html {
   --lavendel-blue: #babdae;
   --grey: #96998f;
   --middle-green: #437c59;
-  background-color: var(--lavendel-blue);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--warm-beige);
 }
 
 /* Utilities -----------------> */
@@ -40,6 +43,10 @@ h2,
 h3,
 h4 {
   font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Header ----------------------> */
@@ -196,6 +203,7 @@ main {
 /* Contact section */
 #contact {
   padding: 80px 5%;
+  background-color: var(--lavendel-blue);
 }
 
 #contact label {
@@ -209,7 +217,6 @@ main {
   padding: 10px;
   margin-bottom: 20px;
   border: none;
-
   background-color: var(--middle-green);
   color: var(--seasalt);
   letter-spacing: 1.5px;
@@ -253,6 +260,24 @@ main {
 footer {
   background-color: var(--grey-green);
   padding: 80px 5%;
+  text-align: center;
+  color: var(--seasalt);
+}
+
+.social-links i {
+  color: var(--seasalt);
+  font-size: 2rem;
+  margin-left: 5px;
+}
+
+.social-links a:not(:first-child) {
+  margin-left: 10px;
+}
+
+small {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.7rem;
 }
 
 /* Media Min width 768px */
