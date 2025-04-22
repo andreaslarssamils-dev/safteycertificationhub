@@ -193,9 +193,66 @@ main {
   margin-bottom: 5px;
 }
 
+/* Contact section */
+#contact {
+  padding: 80px 5%;
+}
+
+#contact label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+#contact input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+
+  background-color: var(--middle-green);
+  color: var(--seasalt);
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+
+  background-color: var(--middle-green);
+  letter-spacing: 1.5px;
+  color: var(--seasalt);
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  border-bottom: 0.5px solid var(--dark-green);
+}
+
+#contact button {
+  display: block;
+  background-color: var(--seasalt);
+  letter-spacing: 1.5px;
+  color: var(--dark-green);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px var(--seasalt), 1px 1px 8px var(--dark-taupe);
+  margin: 0 auto;
+}
+
 /* Footer ---------------------> */
 
 footer {
+  background-color: var(--grey-green);
+  padding: 80px 5%;
 }
 
 /* Media Min width 768px */
