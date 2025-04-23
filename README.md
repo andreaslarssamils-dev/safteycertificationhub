@@ -32,6 +32,18 @@ Mobile
 Hero for Larger screens
 ![Screenshot with hero for larger screens](/assets/hero-l-screens.png)
 
+- About/What we do section
+  - We provide specialized Training in flammable hot work.
+  - Focuses on the safe handling of flammable materials.
+  - Emphasizes the importance of preventative measures in all operations.
+  - Aimes to empower individuals and organizations to prioritize saftey.
+
+Mobile
+![Screen shot with mobile About/What we do section](/assets/about-what-we-do-mobile.png)
+
+What we do/About for larger screens
+![Screen shot with larger screens About/What we do section](/assets/largerscreens-whatwedo.png)
+
 ## Testing
 
 ## Deployment
