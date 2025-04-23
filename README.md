@@ -88,6 +88,13 @@ Larger Screens
 
 ## Testing
 
+- Tested safteyhub in chrome, safari and firefox. Everything working as intended
+- All features and layouts are working in tested browsers
+
+## Bugs
+
+- When I run the validation in W3 i got some warning about trailing slash that I have removed
+
 ## Deployment
 
 ## Credits
