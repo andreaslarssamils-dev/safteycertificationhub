@@ -44,6 +44,16 @@ Mobile
 What we do/About for larger screens
 ![Screen shot with larger screens About/What we do section](/assets/largerscreens-whatwedo.png)
 
+- Services section
+  - Shows we are specialising on the safe handling of flammable materials.
+  - Shows we assist in identifying and effectivevly managing risks associated with flammable materials.
+
+Mobile
+![Screen shot with mobile Services section](/assets/ourservices-mobile.png)
+
+Larger screens
+![Screens shot with larger screens services section](/assets/larger-screens-services.png)
+
 ## Testing
 
 ## Deployment
