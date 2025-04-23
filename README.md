@@ -91,10 +91,36 @@ Larger Screens
 - Tested safteyhub in chrome, safari and firefox. Everything working as intended
 - All features and layouts are working in tested browsers
 
+- Mobile lighthouse test result
+
+![Lighthouse test result for mobile](/assets/mobile-lighthouse-testresult.png)
+
+- Desktop lighthouse test results
+
+![Lighthouse test result for desktop](/assets/desktop-test.png)
+
+- Html checker
+
+![Html validation result](/assets/htmlchecker.png)
+
+- Css checker
+
+![CSS checker result](/assets/css%20validation.png)
+
 ## Bugs
 
 - When I run the validation in W3 i got some warning about trailing slash that I have removed
 
 ## Deployment
 
+I deployed the page on GitHub pages via the following procedure:
+
+    1. From the project's repository, go to the Settings tab.
+    2. From the left-hand menu, select the Pages tab.
+    3. Under the Source section, select the Main branch from the drop-down menu and click Save.
+
 ## Credits
+
+Media:
+
+- I used the image for the hero section from unsplash [Unsplash](www.unsplash.com)
