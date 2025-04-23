@@ -54,6 +54,21 @@ Mobile
 Larger screens
 ![Screens shot with larger screens services section](/assets/larger-screens-services.png)
 
+- Contact
+  - Provides a direct way for users to get in touch
+  - Includes a form with the following fields:
+    - Name: Requires the user's name.
+    - Email: Requires a valid email address for contact.
+    - Message: A textarea for the user to input their inquiry or message.
+  - Submits the form data to https://formdump.codeinstitute.net
+  - Features a submit button labeled "Get Certified".
+
+Mobile
+![Screen shot with contact section](/assets/mobile-contact-form.png)
+
+Larger Screens
+![Screen shot with contact section for larger screens](/assets/larger-screens-contactform.png)
+
 ## Testing
 
 ## Deployment
