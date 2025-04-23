@@ -69,6 +69,23 @@ Mobile
 Larger Screens
 ![Screen shot with contact section for larger screens](/assets/larger-screens-contactform.png)
 
+- Footer
+  - Contains social media links for connecting with SafteyHub:
+  - Facebook (opens in a new tab).
+  - Instagram (opens in a new tab).
+  - YouTube (opens in a new tab).
+  - Uses Font Awesome icons for visual representation of social media platforms.
+  - Includes a copyright notice: "©2025 SafteyHub".
+  - The social media links use target="\_blank" to open in a new tab for user convenience.
+  - rel="noopener noreferrer" is used for security and to prevent potential tabnabbing.
+  - Each social media link includes an aria-label for accessibility, providing a text description for screen readers.
+
+Mobile
+![Screen shot with footer section](/assets/mobile-footer.png)
+
+Larger Screens
+![Screen shot with larger screens footer section](/assets/largescreen-footer.png)
+
 ## Testing
 
 ## Deployment
